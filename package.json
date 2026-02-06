@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@medusajs/cli": "^2.13.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   }
 }
