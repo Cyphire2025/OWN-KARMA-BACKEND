@@ -13,4 +13,4 @@ RUN yarn build
 
 EXPOSE 9000
 
-CMD ["yarn", "start"]
+CMD ["tail", "-f", "/dev/null"]
