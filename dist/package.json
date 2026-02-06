@@ -1,0 +1,25 @@
+{
+  "name": "OWN-KARMA-BACKEND",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Cyphire2025/OWN-KARMA-BACKEND.git",
+  "author": "Cyphire2025 <cyphire1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@medusajs/admin-sdk": "^2.13.1",
+    "@medusajs/framework": "^2.13.1",
+    "@medusajs/medusa": "^2.13.1",
+    "@medusajs/utils": "^2.13.1",
+    "pg": "^8.18.0"
+  },
+  "scripts": {
+    "build": "medusa build",
+    "start": "medusa start",
+    "dev": "medusa dev"
+  },
+  "devDependencies": {
+    "@medusajs/cli": "^2.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
